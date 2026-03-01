@@ -13,7 +13,8 @@ public class FilmController {
     public List<Film> retrieveListOfFilms() {
         return Arrays.asList(
                 new Film(1, "Superman", "James Gunn"),
-                new Film(1, "Tenet", "Christopher Nolan")
+                new Film(2, "Tenet", "Christopher Nolan"),
+                new Film(3, "The Running Man", "Edgar Wight")
         );
     }
 }
